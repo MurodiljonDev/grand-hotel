@@ -1,0 +1,69 @@
+@media(max-width:2560px){
+    .about{
+        margin-bottom: 60px;
+        position: relative;
+        top: 480px;
+        padding-top: 60px;
+        padding-bottom: 50px;
+        height: 450px;
+        width: 100%;
+        background-image: url("../../assets/backgroundNaqsh.png");
+        background-repeat: repeat;
+        background-position: center;
+        transition: 0.3s;
+        .about-box{
+            display: flex;
+            justify-content:space-around;
+            flex-wrap: wrap;
+            .about-box_item{
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                transition: 1.3s;
+                cursor: pointer;
+                img{
+                    max-width: 380px;
+                }
+                h4{
+                    padding-top: 10px;
+                    font-size: 21px;
+                    line-height: 23px;
+                    font-weight: 400;
+                    color: #0c1c1f;
+                }
+                .about-item_animation{
+                    margin-top: 30px;
+                    width: 90px;
+                    border-radius: 2px;
+                    height: 5px;
+                    background-color: #baaa70;
+                }
+                // .about-item_animation:hover{
+                //     animation: aboutUsAnimation 1s;
+                // }
+            }
+            .about-box_item:hover{
+                border-radius: 10px;
+                background-color: #f3d7735c;
+            }
+            .about-box_item:hover .about-item_animation{
+                animation: aboutUsAnimation 1s;
+        }
+    }
+}
+
+@keyframes aboutUsAnimation{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 370px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+
+}
