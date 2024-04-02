@@ -11,8 +11,6 @@ const AboutUsItem = ({ imgUs, titleUs }) => {
   }, []);
   return (
     <div
-      data-aos="flip-down"
-      data-aos-duration="1000"
       className={"about-box_item"}
     >
       <img src={imgUs} alt={titleUs} />

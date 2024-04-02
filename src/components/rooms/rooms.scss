@@ -1,0 +1,49 @@
+.rooms {
+  position: relative;
+  top: 530px;
+  .rooms-box {
+    .rooms-title {
+      text-align: center;
+      h3 {
+        font-size: 60px;
+        line-height: 60px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        color:#baaa70;
+      }
+      p {
+        font-size: 23px;
+        line-height: 42px;
+        font-weight: 700;
+        color: #394649;
+        padding-bottom: 30px;
+      }
+    }
+    .rooms-categores {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      .rooms-categories_item {
+        max-width: 580px;
+        text-align: center;
+        img {
+          width: 100%;
+        }
+        h4 {
+          margin: 20px 0 10px 0;
+          font-size: 30px;
+          line-height: 32px;
+          font-weight: 500;
+          color: #0c1c1f;
+        }
+        p {
+          font-size: 18px;
+          line-height: 30px;
+          font-weight: 400;
+          color: #838E91;
+        }
+      }
+    }
+  }
+}

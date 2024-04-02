@@ -1,0 +1,56 @@
+.reservationWay {
+  position: relative;
+  top: 480px;
+  .reservationWay-box {
+    display: flex;
+    .reservationWay-title {
+      padding-left: 50px;
+      max-width: 530px;
+      h3 {
+        font-size: 42px;
+        line-height: 60px;
+        font-weight: 700;
+        color: #0c1c1f;
+      }
+    }
+    .reservationWay-description {
+      padding-top: 15px;
+      padding-left: 50px;
+      border-left: 1px solid #c2c2c2;
+      max-width: 700px;
+      h5 {
+        font-size: 19px;
+        line-height: 28px;
+        font-weight: 600;
+        color: #0c1c1f;
+        padding-bottom: 25px;
+      }
+      .reservationWay-description_items {
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        p {
+          font-size: 16px;
+          font-weight: 400px;
+          line-height: 23px;
+          color: #838e91;
+        }
+      }
+      .reservationWay-btn{
+        padding-top: 21px;
+        button{
+            cursor: pointer;
+            border: none;
+            padding:11px 22px;
+            background-color: #F1F1F1; 
+            color: #7e6f3a;   
+            transition: 0.2s; 
+        }
+        button:hover{
+            background-color: #d2d0d0; 
+
+        }
+      }
+    }
+  }
+}
