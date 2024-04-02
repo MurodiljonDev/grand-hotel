@@ -28,8 +28,8 @@ const Reservation = () => {
               joylashgan
             </h5>
             <div className="reservationWay-description_items">
-              {reservationDates.map((item) => (
-                <p>{item}</p>
+              {reservationDates.map((item, i) => (
+                <p key={i}>{item}</p>
               ))}
             </div>
             <div className="reservationWay-btn">

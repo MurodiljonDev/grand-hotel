@@ -31,7 +31,7 @@ const Rooms = () => {
           </div>
           <div className="rooms-categores">
             {roomsItemsImg.map((item, i) => (
-              <div className="rooms-categories_item">
+              <div className="rooms-categories_item" key={i}>
                 <img src={item} alt="img-rooms" />
                 <h4>{roomsItemsTitle[i]}</h4>
                 <p>{roomsItemsDescriptions[i]}</p>

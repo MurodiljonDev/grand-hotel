@@ -1,0 +1,66 @@
+.contact {
+  position: relative;
+  top: 540px;
+  margin-bottom: 50px;
+  .contact-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    .contact-title {
+      h2 {
+        font-size: 42px;
+        line-height: 42px;
+        font-weight: 700;
+        color: #0c1c1f;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 21px;
+        line-height: 23px;
+        font-weight: 500;
+        color: #0c1c1f;
+        margin-bottom: 20px;
+      }
+      span{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #838E91;
+      }
+    }
+    .contact-location {
+        padding-left: 40px;
+        border-left: 1px solid #c2c2c2;
+        height: 350px;
+        h5{
+            max-width: 280px;
+            font-size: 21px;
+            line-height: 28px;
+            font-weight: 400;
+            color: #0c1c1f;
+            margin-bottom: 25px;
+        }
+        .contact-location_phone{
+            width: 100%;
+            span{
+                display: block;
+                font-size: 18px;
+                line-height: 30px;
+                font-weight: 400;
+                color: #838E91;
+                padding-bottom: 15px;
+            }
+            h6{
+                width: 100%;
+                font-size: 30px;
+                line-height: 32px;
+                font-weight: 400;
+                margin-bottom: 13px;
+                a{
+                    color: #0c1c1f;
+                }
+            }
+        }
+    }
+  }
+}

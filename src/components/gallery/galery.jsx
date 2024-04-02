@@ -16,10 +16,10 @@ const Galery = () => {
         <div className="galery-title">
           <h3>Fotogalereya</h3>
         </div>
-        <div className="container">
+        <div className="container-galery">
           <div className="galery-photos">
-            {galeryImages.map((item) => (
-              <div className="galery-photos_img">
+            {galeryImages.map((item, i) => (
+              <div className="galery-photos_img" key={i}>
                 <img src={item} alt="galery-photo" />
               </div>
             ))}

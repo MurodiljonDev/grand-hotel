@@ -1,39 +1,51 @@
-.galery{
+@media (max-width: 2560px) {
+  .galery {
     position: relative;
     top: 540px;
     width: 100%;
-    .galery-box{
+    margin-bottom: 50px;
+    .galery-box {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .galery-title {
+        display: flex;
         width: 100%;
-        .galery-title{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 180px;
-            background-image: url("../../assets/backgroundNaqsh.png");
-            background-repeat: repeat;
-            background-position: center;
-            h3{
-                font-size: 42px;
-                line-height: 42px;
-                font-weight: 700;
-                color: #baaa70;
-            }
+        align-items: center;
+        justify-content: center;
+        height: 180px;
+        background-image: url("../../assets/backgroundNaqsh.png");
+        background-repeat: repeat;
+        background-position: center;
+        h3 {
+          font-size: 42px;
+          line-height: 42px;
+          font-weight: 700;
+          color: #baaa70;
         }
-        .galery-photos{
+      }
+      .galery-photos {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .galery-photos_img {
+          overflow: hidden;
+          max-width: 550px;
+          height: 230px;
+          background-color: red;
+          img {
             width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            flex-wrap: wrap;
-            .galery-photos_img{
-                // width: 100%;
-                img{
-                    max-width: 280px;
-                    // height: 200px;
-                    height: 200px;
-                }
-            }
+            height: 100%;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+          }
+          img:hover {
+            transform: scale(1.3);
+          }
         }
+      }
     }
+  }
 }
