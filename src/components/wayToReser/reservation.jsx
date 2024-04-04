@@ -1,8 +1,11 @@
 import React from "react";
 
+import { useTranslation } from "react-i18next";
+
 import "./reservation.scss";
 
 const Reservation = () => {
+  const { t } = useTranslation();
   const reservationDates = [
     "Mehmonxona Toshkent shahrining markaziy hududida joylashgan – “UzExpocenter” xalqaro koʻrgazmalar zalidan 5 daqiqalik yoʻl va markaziy oziq-ovqat bozoridan piyoda 10 daqiqalik masofada joylashgan.",
     "Markaziy joylashuviga qaramay, mehmonxona sokin ko'chada joylashgan bo'lib, u o'tib ketayotgan mashinalardan shovqin bo'lmasligini kafolatlaydi",
@@ -18,24 +21,24 @@ const Reservation = () => {
       <div className="container">
         <div className="reservationWay-box">
           <div className="reservationWay-title">
-            <h3>Grand Capital Hotelga Hush Kelibsiz</h3>
+            <h3>{t("main.header.title")}</h3>
           </div>
           <div className="reservationWay-description">
-            <h5>
-              Mehmonxona Toshkent shahrining markaziy hududida joylashgan –
-              “UzExpocenter” xalqaro koʻrgazmalar zalidan 5 daqiqalik yoʻl va
-              markaziy oziq-ovqat bozoridan piyoda 10 daqiqalik masofada
-              joylashgan
-            </h5>
+            <h5>{t("main.wayToReser.descrTitle")}</h5>
             <div className="reservationWay-description_items">
-              {reservationDates.map((item, i) => (
-                <p key={i}>{item}</p>
-              ))}
+              <p>{t("main.wayToReser.descriptOne")}</p>
+              <p>{t("main.wayToReser.descriptTwo")}</p>
+              <p>{t("main.wayToReser.descriptThree")}</p>
+              <p>{t("main.wayToReser.descriptFour")}</p>
+              <p>{t("main.wayToReser.descriptFive")}</p>
+              <p>{t("main.wayToReser.descriptSix")}</p>
             </div>
             <div className="reservationWay-btn">
-                <a href="#">
-                    <button>Xona bant qilish.</button>                
-                </a>
+              <a href="#Bron">
+                <button>
+                  {t("main.wayToReser.btn")}
+                </button>
+              </a>
             </div>
           </div>
         </div>

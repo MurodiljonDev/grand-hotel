@@ -1,11 +1,15 @@
 import React from "react";
 
-import "./rooms.scss";
-import standartRoom from "../../assets/photo_room_1.jpg";
+import { useTranslation } from "react-i18next";
+
 import juniorSuite from "../../assets/Junior_Suite.jpg";
 import luxsRoom from "../../assets/Luxs.jpg";
+import standartRoom from "../../assets/photo_room_1.jpg";
+
+import "./rooms.scss";
 
 const Rooms = () => {
+  const {t} = useTranslation()
   const roomsItemsImg = [standartRoom, juniorSuite, luxsRoom];
   const roomsItemsTitle = [
     "Yaxshilangan standart xona (Deluxe xona)",
@@ -18,15 +22,13 @@ const Rooms = () => {
     "Bu xonalar 2 xonadan iborat - o'tirish maydoni bo'lgan keng yashash xonasi, alohida mehmon hammomi va tabiiy yog'och mebellari bilan jihozlangan qulay yotoq xonasi, shuningdek, keng hammom. Ushbu toifadagi xonalarda barcha kerakli idishlar bilan jihozlangan kichik oshxonalar ham mavjud. Xonaning maydoni 50 dan 56 m2 gacha.",
   ];
   return (
-    <div className="rooms">
+    <div className="rooms" id="rooms">
       <div className="container">
         <div className="rooms-box">
           <div className="rooms-title">
-            <h3>Xonalar</h3>
+            <h3>{t('main.rooms.title')}</h3>
             <p>
-              Mehmonxonada 51 ta xona mavjud bo'lib, ular quyidagi toifalarga
-              bo'linadi: Yaxshilangan standart xonalar, Junior Suite xonalar va
-              LUX toifali xonalar.
+            {t('main.rooms.description')}
             </p>
           </div>
           <div className="rooms-categores">

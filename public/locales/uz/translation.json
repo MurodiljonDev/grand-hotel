@@ -1,0 +1,45 @@
+{
+  "main": {
+    "nav": {
+      "main-nav": "Asosiy",
+      "aboutUs": "Biz haqimizda",
+      "rooms": "Xonalar",
+      "galery": "Fotogalereya",
+      "contact": "Bog'lanish"
+    },
+    "header": {
+      "title": "Grand Capital Hotelga Hush Kelibsiz"
+    },
+    "aboutUs": {
+      "ourCastel": "Bizning bino",
+      "ourKitchen": "Ajoyib oshxona",
+      "ourbasseyn": "Sog'lomlashtiruchi markaz"
+    },
+    "wayToReser": {
+      "descrTitle": "Mehmonxona Toshkent shahrining markaziy hududida joylashgan – “UzExpocenter” xalqaro koʻrgazmalar zalidan 5 daqiqalik yoʻl va markaziy oziq-ovqat bozoridan piyoda 10 daqiqalik masofada joylashgan.",
+      "descriptOne": "Markaziy joylashuviga qaramay, mehmonxona sokin ko'chada joylashgan bo'lib, u o'tib ketayotgan mashinalardan shovqin bo'lmasligini kafolatlaydi.",
+      "descriptTwo": "Mehmonxona yaqinida restoranlar, barlar, oziq-ovqat bozori, markaziy maydon va Amir Temur muzeyi joylashgan.",
+      "descriptThree": "Grand Capital mehmonxonasidagi xonalar soni 51 ta xonani tashkil etadi. Ulardan 40 tasi DELUXE toifadagi xonalar, 7 tasi Junior Suite xonalari va 4 tasi Suite xonalar.",
+      "descriptFour": "Mehmonxona hududida ikkita zaldan iborat “POYTAXT” restorani mavjud. Bu milliy va yevropa taomlari taqdim etuvchi fast-fud restorani hamda kamin maydoni va oilaviy kechki ovqat uchun stendlari bo‘lgan shinam xonada alohida raqs maydoni mavjud.",
+      "descriptFive": "Fitness markazi, yopiq suzish havzasi, fin saunasi, turk hammomi, massaj - dam olish va sport uchun zarur bo'lgan barcha qo'shimcha xizmatlar Grand Capital Hotel mehmonlarini kutmoqda.",
+      "descriptSix": "Milliy lazzat va intererning nafisligi, eng zamonaviy xalqaro xizmat ko'rsatish standartlari bilan uyg'unlashgan holda, ushbu mehmonxonani chinakam noyob qiladi.",
+      "btn": "Xona bant qilish"
+    },
+    "rooms": {
+      "title": "Xonalar",
+      "description": "Mehmonxonada 51 ta xona mavjud bo'lib, ular quyidagi toifalarga bo'linadi: Superior standart xonalar, Junior Suite xonalar va LUX toifali xonalar.",
+      "delux-room": {
+        "title": "Yaxshilangan standart xona (Deluxe xona)",
+        "description": "Ushbu turdagi xonada katta to'shak yoki ikkita alohida yotoqli bitta xona mavjud. Xonada: stol, garderob va yotoqxona uchun qo'shimcha yorug'lik bilan jihozlangan maxsus ish maydoni mavjud. Xona individual konditsioner, shuningdek, qishda isitish tizimi bilan jihozlangan. Banyoda isitiladigan pollar. Xona hajmi 26 dan 28 m2 gacha."
+      },
+      "junios-suite": {
+        "title": "Yosh Lyuks(Junior Suite)",
+        "description": "Ushbu turdagi xona bitta keng xonadan iborat bo'lib, bitta ikki kishilik yoki 2 ta bir kishilik karavot (mehmonning iltimosiga ko'ra), stolli ish joyi va kresloda qulay o'tirish mumkin bo'lgan dam olish maydoni. Xonada katta shkaf bor. Xonaning maydoni 38 dan 42 m2 gacha."
+      },
+      "lux-room": {
+        "title": "Toifasi Lyuks xona",
+        "description": "Bu xonalar 2 xonadan iborat - o'tirish maydoni bo'lgan keng yashash xonasi, alohida mehmon hammomi va tabiiy yog'och mebellari bilan jihozlangan qulay yotoq xonasi, shuningdek, keng hammom. Ushbu toifadagi xonalarda barcha kerakli idishlar bilan jihozlangan kichik oshxonalar ham mavjud. Xonaning maydoni 50 dan 56 m2 gacha."
+      }
+    }
+  }
+}

@@ -4,16 +4,19 @@
     top: 0;
     height: 580px;
     width: 100%;
+
     .header-box {
       height: 100%;
       width: 100%;
       position: relative;
+
       .header-text {
         position: absolute;
         top: 385px;
         left: 160px;
         bottom: 20px;
         z-index: 1;
+
         h2 {
           max-width: 850px;
           font-size: 80px;
@@ -23,32 +26,227 @@
           font-style: italic;
         }
       }
-      .header-box_item{
-        img{
+
+      .header-box_item {
+        img {
           width: 100%;
         }
       }
     }
   }
 }
+
 .swiper {
-    width: 100%;
-    height: 100%;
-  }
+  width: 100%;
+  height: 100%;
+}
 
-  .swiper-slide {
-    width: 100%;
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.swiper-slide {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .swiper-slide img {
-    display: block;
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1050px) {
+  .header {
+    position: absolute;
+    top: 0;
+    height: 580px;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+    .header-box {
+      height: 100%;
+      width: 100%;
+      position: relative;
+
+      .header-text {
+        position: absolute;
+        top: 345px;
+        left: 80px;
+        bottom: 20px;
+        z-index: 1;
+
+        h2 {
+          max-width: 850px;
+          font-size: 60px;
+          line-height: 90px;
+          color: #fff;
+          font-weight: 700;
+          font-style: italic;
+        }
+      }
+
+      .header-box_item {
+        img {
+          width: 100%;
+        }
+      }
+    }
   }
+}
+
+@media (max-width: 880px) {
+  .header {
+    position: absolute;
+    top: 0px;
+    height: 430px;
+    width: 100%;
+
+    .header-box {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      .header-text {
+        position: absolute;
+        top: 260px;
+        left: 50px;
+        bottom: 20px;
+        z-index: 1;
+
+        h2 {
+          max-width: 550px;
+          font-size: 45px;
+          line-height: 60px;
+          color: #fff;
+          font-weight: 700;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 657px) {
+  .header {
+    position: absolute;
+    top: 0px;
+    height: 390px;
+    width: 100%;
+
+    .header-box {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      .header-text {
+        position: absolute;
+        top: 180px;
+        left: 20px;
+        bottom: 20px;
+        z-index: 1;
+
+        h2 {
+          max-width: 550px;
+          font-size: 45px;
+          line-height: 55px;
+          color: #fff;
+          font-weight: 700;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 595px) {
+  .header {
+    position: absolute;
+    top: 0px;
+    height: 330px;
+    width: 100%;
+
+    .header-box {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      .header-text {
+        position: absolute;
+        top: 140px;
+        left: 5px;
+        bottom: 20px;
+        z-index: 1;
+
+        h2 {
+          max-width: 500px;
+          font-size: 30px;
+          line-height: 55px;
+          color: #fff;
+          font-weight: 700;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 530px) {
+  .header {
+    position: absolute;
+    top: 0px;
+    height: 330px;
+    width: 100%;
+    .header-box {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      .header-text {
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        bottom: 20px;
+        z-index: 1;
+
+        h2 {
+          max-width: 450px;
+          font-size: 30px;
+          line-height: 55px;
+          color: #fff;
+          font-weight: 700;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 505px) {
+  .header {
+    position: absolute;
+    top: 0px;
+    height: 317px;
+    width: 100%;
+    .header-box {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      text-align: center;
+      .header-text {
+        position: absolute;
+        top: 150px;
+        left: 70px;
+        bottom: 20px;
+        z-index: 1;
+
+        h2 {
+          max-width: 350px;
+          font-size: 25px;
+          line-height: 55px;
+          color: #fff;
+          font-weight: 700;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,7 @@
 import React, { useRef, useState, useEffect } from "react";
 
+import { useTranslation } from "react-i18next";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -10,12 +12,17 @@ import livingRoom from "../../assets/sliderOneImage.jpg";
 import mainCastel from "../../assets/sliderTwoImg.jpg";
 import mainRoom from "../../assets/sliderThreeImg.jpg";
 
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 import "./header.scss";
+// import { useTranslation } from "react-i18next";
 
 const Header = () => {
+
+const {t} = useTranslation()
+
   useEffect(() => {
     Aos.init();
   }, []);
@@ -59,7 +66,7 @@ const Header = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <h2 className="animate__flip">Grand Capital Hotelga Hush Kelibsiz</h2>
+          <h2 className="animate__flip">{t('main.header.title')}</h2>
         </div>
       </div>
     </div>

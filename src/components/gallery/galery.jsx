@@ -11,7 +11,7 @@ const Galery = () => {
   const galeryImages = [GalleryImgA, GalleryImgB, GalleryImgC, GalleryImgD];
 
   return (
-    <div className="galery">
+    <div className="galery" id="galery">
       <div className="galery-box">
         <div className="galery-title">
           <h3>Fotogalereya</h3>

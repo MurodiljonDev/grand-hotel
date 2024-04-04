@@ -9,7 +9,7 @@ import "./reservationOnly.scss";
 
 const ReservationOnly = () => {
   return (
-    <div className="reservation">
+    <div className="reservation" id="Bron">
       <div className="container">
         <div className="reservation-box">
           <h3>Xonani bron qilish uchun ariza</h3>
