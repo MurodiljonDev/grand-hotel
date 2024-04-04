@@ -1,69 +1,327 @@
-@media(max-width:2560px){
-    .about{
-        margin-bottom: 60px;
-        position: relative;
-        top: 480px;
-        padding-top: 60px;
-        padding-bottom: 50px;
-        height: 450px;
-        width: 100%;
-        background-image: url("../../assets/backgroundNaqsh.png");
-        background-repeat: repeat;
-        background-position: center;
-        transition: 0.3s;
-        .about-box{
-            display: flex;
-            justify-content:space-around;
-            flex-wrap: wrap;
-            .about-box_item{
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                transition: 1.3s;
-                cursor: pointer;
-                img{
-                    max-width: 380px;
-                }
-                h4{
-                    padding-top: 10px;
-                    font-size: 21px;
-                    line-height: 23px;
-                    font-weight: 400;
-                    color: #0c1c1f;
-                }
-                .about-item_animation{
-                    margin-top: 30px;
-                    width: 90px;
-                    border-radius: 2px;
-                    height: 5px;
-                    background-color: #baaa70;
-                }
-                // .about-item_animation:hover{
-                //     animation: aboutUsAnimation 1s;
-                // }
-            }
-            .about-box_item:hover{
-                border-radius: 10px;
-                background-color: #f3d7735c;
-            }
-            .about-box_item:hover .about-item_animation{
-                animation: aboutUsAnimation 1s;
+@media (max-width: 2560px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 480px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 450px;
+    width: 100%;
+    background-image: url("../../assets/backgroundNaqsh.png");
+    background-repeat: repeat;
+    background-position: center;
+    transition: 0.3s;
+    .about-box {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
+      .about-box_item {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1.3s;
+        cursor: pointer;
+        img {
+          max-width: 380px;
         }
+        h4 {
+          padding-top: 10px;
+          font-size: 21px;
+          line-height: 23px;
+          font-weight: 400;
+          color: #0c1c1f;
+        }
+        .about-item_animation {
+          margin-top: 30px;
+          width: 90px;
+          border-radius: 2px;
+          height: 5px;
+          background-color: #baaa70;
+        }
+        // .about-item_animation:hover{
+        //     animation: aboutUsAnimation 1s;
+        // }
+      }
+      .about-box_item:hover {
+        border-radius: 10px;
+        background-color: #f3d7735c;
+      }
+      .about-box_item:hover .about-item_animation {
+        animation: aboutUsAnimation 1s;
+      }
     }
+  }
+}
+@media (max-width: 1179px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 480px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 450px;
+    width: 100%;
+    background-image: url("../../assets/backgroundNaqsh.png");
+    background-repeat: repeat;
+    background-position: center;
+    transition: 0.3s;
+    .about-box {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
+      .about-box_item {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1.3s;
+        cursor: pointer;
+        img {
+          max-width: 330px;
+        }
+        h4 {
+          padding-top: 10px;
+          font-size: 18px;
+          line-height: 23px;
+          font-weight: 400;
+          color: #0c1c1f;
+        }
+        .about-item_animation {
+          margin-top: 20px;
+          width: 90px;
+          border-radius: 2px;
+          height: 5px;
+          background-color: #baaa70;
+        }
+        .about-item_animation:hover {
+          animation: aboutUsAnimation 1s;
+        }
+      }
+      .about-box_item:hover {
+        border-radius: 10px;
+        background-color: #f3d7735c;
+      }
+      .about-box_item:hover .about-item_animation {
+        animation: aboutUsAnimation 1s;
+      }
+    }
+  }
+
+  @keyframes aboutUsAnimation {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 320px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
 }
 
-@keyframes aboutUsAnimation{
-    0%{
-        width: 100px;
+@media (max-width: 1046px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 480px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 700px;
+    .about-box {
+      .about-box_item:nth-child(3) {
+        margin-top: 20px;
+      }
     }
-    50%{
-        width: 370px;
-    }
-    100%{
-        width: 100px;
-    }
+  }
 }
 
+@media (max-width: 1030px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 480px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 700px;
+    width: 100%;
+    background-image: url("../../assets/backgroundNaqsh.png");
+    background-repeat: repeat;
+    background-position: center;
+    transition: 0.3s;
+    .about-box {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
+      .about-box_item {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1.3s;
+        cursor: pointer;
+        img {
+          max-width: 330px;
+        }
+        h4 {
+          padding-top: 10px;
+          font-size: 18px;
+          line-height: 23px;
+          font-weight: 400;
+          color: #0c1c1f;
+        }
+        .about-item_animation {
+          margin-top: 20px;
+          width: 90px;
+          border-radius: 2px;
+          height: 5px;
+          background-color: #baaa70;
+        }
+        .about-item_animation:hover {
+          animation: aboutUsAnimation 1s;
+        }
+      }
+      .about-box_item:nth-child(3) {
+        margin-top: 25px;
+      }
+      .about-box_item:hover {
+        border-radius: 10px;
+        background-color: #f3d7735c;
+      }
+      .about-box_item:hover .about-item_animation {
+        animation: aboutUsAnimation 1s;
+      }
+    }
+  }
+
+  @keyframes aboutUsAnimation {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 320px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media (max-width: 880px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 343px;
+  }
+}
+
+@media (max-width: 707px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 340px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 1380px;
+    width: 100%;
+    background-image: url("../../assets/backgroundNaqsh.png");
+    background-repeat: repeat;
+    background-position: center;
+    transition: 0.3s;
+    .about-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      .about-box_item {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1.3s;
+        cursor: pointer;
+        img {
+          max-width: 450px;
+        }
+        h4 {
+          padding-top: 30px;
+          font-size: 25px;
+          line-height: 23px;
+          font-weight: 400;
+          color: #0c1c1f;
+        }
+        .about-item_animation {
+          margin-top: 30px;
+          width: 90px;
+          border-radius: 2px;
+          height: 5px;
+          background-color: #baaa70;
+        }
+        .about-item_animation:hover {
+          animation: aboutUsAnimation 1s;
+        }
+      }
+      .about-box_item:nth-child(3) {
+        margin-top: 25px;
+      }
+      .about-box_item:hover {
+        border-radius: 10px;
+        background-color: #f3d7735c;
+      }
+      .about-box_item:hover .about-item_animation {
+        animation: aboutUsAnimation 1s;
+      }
+    }
+  }
+
+  @keyframes aboutUsAnimation {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 320px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media (max-width: 656px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 300px;
+  }
+}
+@media (max-width: 595px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 240px;
+  }
+}
+@media (max-width: 505px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 225px;
+  }
+}
+@media (max-width: 470px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 210px;
+  }
 }
