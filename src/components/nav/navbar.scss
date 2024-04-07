@@ -282,13 +282,13 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    height: 100px;
+    height: 90px;
     background-color: rgba(136, 119, 54, 0.8);
     padding: 13px 0 0 53px;
     &--change {
       position: sticky;
       top: 0;
-      height: 100px;
+      height: 90px;
       padding: 5px 0 0 40px;
       animation: navTop 0.5s;
     }
@@ -303,7 +303,7 @@
         display: flex;
         align-items: center;
         img {
-          height: 40px;
+          height: 35px;
         }
         &--change {
           img {
@@ -339,13 +339,13 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    height: 100px;
+    height: 90px;
     background-color: rgba(136, 119, 54, 0.8);
     padding: 13px 0 0 0;
     &--change {
       position: sticky;
       top: 0;
-      height: 140px;
+      height: 90px;
       padding: 0px 0 0 0;
       animation: navTop 0.5s;
     }
@@ -362,7 +362,7 @@
         display: flex;
         align-items: center;
         img {
-          height: 40px;
+          height: 30px;
         }
         &--change {
           img {
@@ -398,13 +398,13 @@
     position: sticky;
     top: 0;
     z-index: 999;
-    height: 140px;
+    height: 80px;
     background-color: rgba(136, 119, 54, 0.8);
     padding: 13px 0 0 0;
     &--change {
       position: sticky;
       top: 0;
-      height: 140px;
+      height: 80px;
       padding: 0px 0 0 0;
       animation: navTop 0.5s;
     }
@@ -421,7 +421,7 @@
         display: flex;
         align-items: center;
         img {
-          height: 40px;
+          height: 30px;
         }
         &--change {
           img {

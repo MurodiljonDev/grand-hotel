@@ -130,14 +130,9 @@
     margin-bottom: 60px;
     position: relative;
     top: 480px;
-    padding-top: 60px;
+    padding-top: 75px;
     padding-bottom: 50px;
-    height: 700px;
-    .about-box {
-      .about-box_item:nth-child(3) {
-        margin-top: 20px;
-      }
-    }
+    height: 395px;
   }
 }
 
@@ -322,6 +317,171 @@
   .about {
     margin-bottom: 60px;
     position: relative;
-    top: 210px;
+    top: 200px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 1200px;
+    width: 100%;
+    background-image: url("../../assets/backgroundNaqsh.png");
+    background-repeat: repeat;
+    background-position: center;
+    transition: 0.3s;
+    .about-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      .about-box_item {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1.3s;
+        cursor: pointer;
+        img {
+          max-width: 360px;
+        }
+        h4 {
+          padding-top: 30px;
+          font-size: 23px;
+          line-height: 23px;
+          font-weight: 400;
+          color: #0c1c1f;
+        }
+        .about-item_animation {
+          margin-top: 30px;
+          width: 90px;
+          border-radius: 2px;
+          height: 5px;
+          background-color: #baaa70;
+        }
+        .about-item_animation:hover {
+          animation: aboutUsAnimation 1s;
+        }
+      }
+      .about-box_item:nth-child(3) {
+        margin-top: 25px;
+      }
+      .about-box_item:hover {
+        border-radius: 10px;
+        background-color: #f3d7735c;
+      }
+      .about-box_item:hover .about-item_animation {
+        animation: aboutUsAnimation 1s;
+      }
+    }
+  }
+
+  @keyframes aboutUsAnimation {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 320px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 180px;
+  }
+}
+@media (max-width: 400px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 160px;
+  }
+}
+
+@media (max-width: 380px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 140px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    height: 1080px;
+    width: 100%;
+    background-image: url("../../assets/backgroundNaqsh.png");
+    background-repeat: repeat;
+    background-position: center;
+    transition: 0.3s;
+    .about-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      .about-box_item {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: 1.3s;
+        cursor: pointer;
+        img {
+          max-width: 300px;
+        }
+        h4 {
+          padding-top: 30px;
+          font-size: 23px;
+          line-height: 23px;
+          font-weight: 400;
+          color: #0c1c1f;
+        }
+        .about-item_animation {
+          margin-top: 30px;
+          width: 90px;
+          border-radius: 2px;
+          height: 5px;
+          background-color: #baaa70;
+        }
+        .about-item_animation:hover {
+          animation: aboutUsAnimation 1s;
+        }
+      }
+      .about-box_item:nth-child(3) {
+        margin-top: 25px;
+      }
+      .about-box_item:hover {
+        border-radius: 10px;
+        background-color: #f3d7735c;
+      }
+      .about-box_item:hover .about-item_animation {
+        animation: aboutUsAnimation 1s;
+      }
+    }
+  }
+
+  @keyframes aboutUsAnimation {
+    0% {
+      width: 100px;
+    }
+    50% {
+      width: 320px;
+    }
+    100% {
+      width: 100px;
+    }
+  }
+}
+
+@media (max-width: 357px) {
+  .about {
+    margin-bottom: 60px;
+    position: relative;
+    top: 135px;
   }
 }

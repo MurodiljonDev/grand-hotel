@@ -77,7 +77,6 @@ const StyledButton = styled('button', { shouldForwardProp: () => true })(
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 0.875rem;
   box-sizing: border-box;
-  min-width: 280px;
   padding: 8px 12px;
   text-align: left;
   line-height: 1.5;
@@ -120,7 +119,6 @@ const Listbox = styled('ul')(
   box-sizing: border-box;
   padding: 6px;
   margin: 12px 0;
-  min-width: 320px;
   border-radius: 12px;
   overflow: auto;
   outline: 0px;
