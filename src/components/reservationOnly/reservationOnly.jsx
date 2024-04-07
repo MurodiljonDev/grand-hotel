@@ -47,7 +47,6 @@ const ReservationOnly = () => {
             <div className="reservation-rows_group">
               <div className="reservation-row_item">
                 <em>Kattalar soni</em>
-                
                 <ChoiseRooms />
               </div>
               <div className="reservation-row_item">

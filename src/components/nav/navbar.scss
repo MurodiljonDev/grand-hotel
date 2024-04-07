@@ -239,7 +239,7 @@
     .nav-box {
       display: flex;
       justify-content: space-between;
-      flex-wrap: wrap;
+      // flex-wrap: wrap;
       gap: 15px;
       align-items: center;
       .nav-logo {
@@ -352,7 +352,7 @@
     .nav-box {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
+      // flex-wrap: wrap;
       gap: 15px;
       align-items: center;
       padding-top: 15px;
@@ -411,7 +411,7 @@
     .nav-box {
       display: flex;
       justify-content: center;
-      flex-wrap: wrap;
+      // flex-wrap: wrap;
       gap: 15px;
       align-items: center;
       padding-top: 15px;
@@ -431,7 +431,7 @@
       }
       .nav-select {
         .nav-select_in {
-          font-size: 8px;
+          font-size: 9px;
           padding: 10px;
           border: 3px solid rgba(136, 119, 54);
           border-radius: 5px;
